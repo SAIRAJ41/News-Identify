@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fake News Detector - Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Fake News Detector - Result</h1>
+    <p>URL: <a href="{{ url }}">{{ url }}</a></p>
+    <p>Prediction: {{ prediction }}</p>
+    <p>Authenticity Score: {{ score }}%</p>
+    <a href="/">Check another URL</a>
+</body>
+</html>
